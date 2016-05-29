@@ -1,0 +1,346 @@
+#
+# Name: defaultLeatherArmor.yml
+# Description: You can get the random color when you craft a leather armor.
+# You can delete this file if you don't want to use this feature.
+#
+
+Helmet:
+  recipe:
+    id: "minecraft:leather_helmet"
+    amount: 1
+  result-list:
+    Black:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#191919"
+    Red:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#993333"
+    Green:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#667F33"
+    Brown:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#664C33"
+    Blue:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#334CB2"
+    Purple:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#7F3FB2"
+    Cyan:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#4C7F99"
+    LightGray:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#999999"
+    Gray:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#4C4C4C"
+    Pink:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#F27FA5"
+    Lime:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#7FCC19"
+    Yellow:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#E5E533"
+    LightBlue:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#6699D8"
+    Magenta:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#B24CD8"
+    Orange:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#D87F33"
+    White:
+      chance: 6.25
+      id: "minecraft:leather_helmet"
+      amount: 1
+      color: "#FFFFFF"
+Chestplate:
+  recipe:
+    id: "minecraft:leather_chestplate"
+    amount: 1
+  result-list:
+    Black:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#191919"
+    Red:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#993333"
+    Green:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#667F33"
+    Brown:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#664C33"
+    Blue:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#334CB2"
+    Purple:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#7F3FB2"
+    Cyan:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#4C7F99"
+    LightGray:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#999999"
+    Gray:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#4C4C4C"
+    Pink:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#F27FA5"
+    Lime:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#7FCC19"
+    Yellow:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#E5E533"
+    LightBlue:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#6699D8"
+    Magenta:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#B24CD8"
+    Orange:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#D87F33"
+    White:
+      chance: 6.25
+      id: "minecraft:leather_chestplate"
+      amount: 1
+      color: "#FFFFFF"
+Leggings:
+  recipe:
+    id: "minecraft:leather_leggings"
+    amount: 1
+  result-list:
+    Black:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#191919"
+    Red:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#993333"
+    Green:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#667F33"
+    Brown:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#664C33"
+    Blue:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#334CB2"
+    Purple:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#7F3FB2"
+    Cyan:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#4C7F99"
+    LightGray:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#999999"
+    Gray:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#4C4C4C"
+    Pink:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#F27FA5"
+    Lime:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#7FCC19"
+    Yellow:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#E5E533"
+    LightBlue:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#6699D8"
+    Magenta:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#B24CD8"
+    Orange:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#D87F33"
+    White:
+      chance: 6.25
+      id: "minecraft:leather_leggings"
+      amount: 1
+      color: "#FFFFFF"
+Boots:
+  recipe:
+    id: "minecraft:leather_boots"
+    amount: 1
+  result-list:
+    Black:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#191919"
+    Red:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#993333"
+    Green:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#667F33"
+    Brown:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#664C33"
+    Blue:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#334CB2"
+    Purple:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#7F3FB2"
+    Cyan:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#4C7F99"
+    LightGray:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#999999"
+    Gray:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#4C4C4C"
+    Pink:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#F27FA5"
+    Lime:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#7FCC19"
+    Yellow:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#E5E533"
+    LightBlue:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#6699D8"
+    Magenta:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#B24CD8"
+    Orange:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#D87F33"
+    White:
+      chance: 6.25
+      id: "minecraft:leather_boots"
+      amount: 1
+      color: "#FFFFFF"

@@ -1,0 +1,8 @@
+name: LuckyRecipe
+version: 1.0.0-SNAPSHOT
+author: elsiff
+main: me.elsiff.luckyrecipe.LuckyRecipe
+commands:
+  luckyrecipe:
+    description: Main command for LuckyRecipe.
+    usage: /luckyrecipe

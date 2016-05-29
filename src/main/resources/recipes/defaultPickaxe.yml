@@ -1,0 +1,91 @@
+#
+# Name: defaultPickaxe.yml
+# Description: Add the chance to get enchanted pickaxe when you craft one.
+# You can delete this file if you don't want to use this feature.
+#
+
+Wooden_Pickaxe:
+  recipe:
+    id: "minecraft:wooden_pickaxe"
+    amount: 1
+  result-list:
+    UnbreakingPickaxe:
+      chance: 3
+      id: "minecraft:wooden_pickaxe"
+      amount: 1
+      enchantments:
+      - "minecraft:unbreaking|1"
+    EffecientPickaxe:
+      chance: 0.5
+      id: "minecraft:wooden_pickaxe"
+      amount: 1
+      enchantments:
+      - "minecraft:efficiency|1"
+Stone_Pickaxe:
+  recipe:
+    id: "minecraft:stone_pickaxe"
+    amount: 1
+  result-list:
+    UnbreakingPickaxe:
+      chance: 5
+      id: "minecraft:stone_pickaxe"
+      amount: 1
+      enchantments:
+      - "minecraft:unbreaking|1"
+    EffecientPickaxe:
+      chance: 1
+      id: "minecraft:stone_pickaxe"
+      amount: 1
+      enchantments:
+      - "minecraft:efficiency|1"
+Iron_Pickaxe:
+  recipe:
+    id: "minecraft:iron_pickaxe"
+    amount: 1
+  result-list:
+    UnbreakingPickaxe:
+      chance: 5
+      id: "minecraft:iron_pickaxe"
+      amount: 1
+      enchantments:
+      - "minecraft:unbreaking|1"
+    EffecientPickaxe:
+      chance: 2
+      id: "minecraft:iron_pickaxe"
+      amount: 1
+      enchantments:
+      - "minecraft:efficiency|2"
+Golden_Pickaxe:
+  recipe:
+    id: "minecraft:golden_pickaxe"
+    amount: 1
+  result-list:
+    UnbreakingPickaxe:
+      chance: 10
+      id: "minecraft:golden_pickaxe"
+      amount: 1
+      enchantments:
+      - "minecraft:unbreaking|1"
+    EffecientPickaxe:
+      chance: 5
+      id: "minecraft:golden_pickaxe"
+      amount: 1
+      enchantments:
+      - "minecraft:efficiency|3"
+Diamond_Pickaxe:
+  recipe:
+    id: "minecraft:diamond_pickaxe"
+    amount: 1
+  result-list:
+    UnbreakingPickaxe:
+      chance: 5
+      id: "minecraft:diamond_pickaxe"
+      amount: 1
+      enchantments:
+      - "minecraft:unbreaking|1"
+    EffecientPickaxe:
+      chance: 2
+      id: "minecraft:diamond_pickaxe"
+      amount: 1
+      enchantments:
+      - "minecraft:efficiency|2"
