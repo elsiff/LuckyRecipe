@@ -5,7 +5,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.CraftItemEvent;
 import org.bukkit.inventory.*;
-import org.bukkit.inventory.meta.Repairable;
 
 public class InventoryListener implements Listener {
     private final int[] slots;

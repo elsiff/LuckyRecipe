@@ -38,6 +38,7 @@ public class RecipeManager {
 
             plugin.saveResource("recipes/defaultPickaxe.yml", false);
             plugin.saveResource("recipes/defaultLeatherArmor.yml", false);
+            plugin.saveResource("recipes/defaultChainArmor.yml", false);
         }
 
         for (File file : folder.listFiles()) {

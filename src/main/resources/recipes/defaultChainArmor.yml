@@ -1,0 +1,42 @@
+#
+# Name: defaultChainArmor.yml
+# Description: Add the 70% chance to get the chain armor when you crafted iron one.
+# You can delete this file if you don't want to use this feature.
+#
+
+Helmet:
+  recipe:
+    id: "minecraft:iron_helmet"
+    amount: 1
+  result-list:
+    Chain:
+      chance: 70
+      id: "minecraft:chainmail_helmet"
+      amount: 1
+Chestplate:
+  recipe:
+    id: "minecraft:iron_chestplate"
+    amount: 1
+  result-list:
+    Chain:
+      chance: 70
+      id: "minecraft:chainmail_chestplate"
+      amount: 1
+Leggings:
+  recipe:
+    id: "minecraft:iron_leggings"
+    amount: 1
+  result-list:
+    Chain:
+      chance: 70
+      id: "minecraft:chainmail_leggings"
+      amount: 1
+Boots:
+  recipe:
+    id: "minecraft:iron_boots"
+    amount: 1
+  result-list:
+    Chain:
+      chance: 70
+      id: "minecraft:chainmail_boots"
+      amount: 1
