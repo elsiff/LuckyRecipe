@@ -30,10 +30,8 @@ public class IdentityUtils {
 
             return itemStack.getType();
         } catch (Exception e) {
-            e.printStackTrace();
+            return null;
         }
-
-        return null;
     }
 
     public static Enchantment getEnchantment(String minecraftId) {
@@ -61,10 +59,10 @@ public class IdentityUtils {
                 }
             }
 
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+            return null;
 
-        return null;
+        } catch (Exception e) {
+            return null;
+        }
     }
 }

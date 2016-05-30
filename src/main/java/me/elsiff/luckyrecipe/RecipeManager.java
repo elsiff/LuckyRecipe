@@ -54,6 +54,12 @@ public class RecipeManager {
                     double chance = section.getDouble(name + ".chance");
 
                     Material type = IdentityUtils.getMaterial(section.getString(name + ".id"));
+
+                    if (type == null) {
+                        plugin.getServer().getConsoleSender().sendMessage("§c[LuckyRecipe] Invalid item id: " + section.getString(name + ".id"));
+                        continue;
+                    }
+
                     int amount = section.getInt(name + ".amount");
                     short durability = (short) ((section.contains(name + ".durability")) ? section.getInt(name + ".durability") : 0);
                     ItemStack stack = new ItemStack(type, amount, durability);
@@ -79,6 +85,12 @@ public class RecipeManager {
                         for (String content : section.getStringList(name + ".enchantments")) {
                             String[] split = content.split("\\|");
                             Enchantment enchantment = IdentityUtils.getEnchantment(split[0]);
+
+                            if (enchantment == null) {
+                                plugin.getServer().getConsoleSender().sendMessage("§c[LuckyRecipe] Invalid enchantment id: " + split[0]);
+                                continue;
+                            }
+
                             int level = Integer.parseInt(split[1]);
 
                             meta.addEnchant(enchantment, level, true);
@@ -112,10 +124,23 @@ public class RecipeManager {
                 CustomRecipe recipe = builder.build();
 
                 Material type = IdentityUtils.getMaterial(config.getString(path + ".recipe.id"));
+
+                if (type == null) {
+                    plugin.getServer().getConsoleSender().sendMessage("§c[LuckyRecipe] Invalid item id: " + config.getString(path + ".recipe.id"));
+                    continue;
+                }
+
                 int amount = config.getInt(path + ".recipe.amount");
                 short durability = (short) ((config.contains(path + ".recipe.durability")) ? config.getInt(path + ".recipe.durability") : -1);
 
-                for (Recipe key : findRecipes(type, amount, durability)) {
+                Set<Recipe> recipes = findRecipes(type, amount, durability);
+
+                if (recipes.isEmpty()) {
+                    plugin.getServer().getConsoleSender().sendMessage("§c[LuckyRecipe] Not found any recipe: " + path);
+                    continue;
+                }
+
+                for (Recipe key : recipes) {
                     recipeMap.put(key, recipe);
                 }
             }
